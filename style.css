@@ -1,0 +1,251 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+
+
+html,
+button,
+input,
+select,
+textarea { color: #222;}
+
+body                    { font-size: 1em; line-height: 1.4; background-color: black !important;  font-family: 'Nanum Gothic', sans-serif;}
+::-moz-selection        { background: #b3d4fc; text-shadow: none; }
+::selection             {background: #b3d4fc; text-shadow: none; }
+
+hr         { display: block; height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+a { text-decoration: none;}
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after      { content: " "; display: table;}
+.clearfix:after      { clear: both; }
+.clearfix            { *zoom: 1; }
+
+
+html { height: 100%; margin:0; padding:0; }
+body {  background-size:cover; background-attachment: fixed; height: 100%; margin:0; padding:0;} 
+article { min-height:100%; max-width:1800px; padding:0 ; margin:0 auto; color:white; min-height:800px; overflow: auto;}
+article header { padding-top:50px;}
+.entry-content { padding:10% 0; }
+
+.entry-title {}
+h1.entry-title a { font-size: 24px; font-weight:800; color:white; border-bottom:3px solid white; }
+.postinfo  {font-size: 11px; line-height: 1.5; padding-top:0px;  opacity: 0.6; }
+.postinfo a { color:white; text-decoration: none;}
+article img {max-width: 100%;}
+h1, .postinfo { float: left; clear: none;}
+.postinfo { clear: both; float: none;}
+
+.by-author { display: none;}
+
+
+
+header.over { opacity: 0.4}
+
+.site-content{ min-height: 100%; background-color:rgba(0,0,0,0.3);}
+.site-content.over {overflow: auto; min-height: 100%; background-color:rgba(0,0,0,0.6); }
+
+.entry-content { padding:50px 50px; font-size:12px; max-width:1700px; margin:0 auto;}
+
+
+.entry-content .multi {  -moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;
+-moz-column-gap:20px; /* Firefox */
+-webkit-column-gap:20px; /* Safari and Chrome */
+column-gap:20px;
+color:#ddd;
+font-weight: noamal;
+opacity: 0.8;
+ max-width:1000px; margin:0 auto;
+}
+
+
+div.multi { color:white !important;}
+.subtitle { display: block; font-size: 13px; font-weight: bold; padding-top:10px;}
+
+.leftDiv { width:450px; padding-top: 200px; margin-left: -50px;  opacity: 0.9; line-height: 1.8; font-size: 12px; font-weight: d00;} 
+
+
+.menuIcon { position: absolute; top:-70px; right: 100px }
+.menuIcon.slide { position: absolute; top:70px; right: 100px }
+
+ 
+footer { display: none;}
+
+
+.slideDiv { content:""; position: fixed; z-index: 10000000;  display: block; height: 100%; width:100%;  background: black; }
+.slideDiv.slide { width:0; right:0;}
+
+
+.site-content { 	 background-size:cover; background-attachment: fixed; height:auto; }
+
+.navigation {}
+
+
+
+@media only all and (max-width: 480px) {
+	article header 	{ padding-top:10px; }
+	article { padding:20px; min-height:300px;}
+	.entry-content { font-size: 15px !important;  padding:20px 0 0 0;}
+	.leftDiv { margin-left:0; padding-top:90px; width:auto;}
+	.entry-content img { }
+	.menuIcon { display: none;}
+}
+
+
+@media all and (min-width:768px) and (max-width:1024px) {
+	article { padding:0 100px;}
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+	article { padding:0 100px;}
+
+}
+
+
+
+/* standard */
+
+
+.entry-title { display: none;}
+.postinfo { }
+
+
+.imgBox { margin:0 auto; width:600px;   position: absolute; height: 400px; top:50%; left:50%; margin-left:-250px; margin-top:-220px;  }
+.imgBox img { position: absolute;}
+
+
+.text_hello.slide 		{ top:20px; left:-100px; opacity: 0; }
+.text_wordpress.slide		{ top:235px; left:-100px; opacity: 0; }
+.text_minimal.slide 		{ top:370px; left:100px; opacity: 0; }
+
+
+.text_logo.slide		    { top:80px;  left:200px; opacity: 0; }
+
+
+
+.text_hello 		{ top:0px; opacity: 1; left:0; }
+.text_wordpress		{ top:220px; opacity: 1;  left:0;}
+.text_minimal 		{ top:380px; left:0; opacity: 1; }
+
+.menuIcon { margin-top:-200px;}
+.menuIcon.slide2 {  margin-top:0;}
+
+.calumn2 {  height: 100px; border-top:1px solid #555; width: 100%; position: absolute; top: 50%;left:0;  margin-top: 300px; padding-top:40px;}
+
+
+.calumn2 .calumn2Box { width:840px; margin:0 auto; }
+.calumn2 .left, 
+.calumn2 .right  {width:400px; padding:0 10px; float: left; color:#ccc; font-weight: normal; letter-spacing:normal; font:"gulim" 12px; line-height: 1.5;}
+
+.comment { display: none;}
+
+@media only all and (max-width: 480px) {
+ 
+.slideDiv {display: none;}
+
+.imgBox { width:300px;  border: 1px solid red; position: absolute; left: 0; margin-left: 100px }
+.imgBox img { position: absolute;}
+
+.calumn2 .calumn2Box { width:auto; font-size: 20px !important; }
+.calumn2 .calumn2Box .left,.calumn2 .calumn2Box .right { padding:20px 0;}
+.text_hello.slide 		{ top:20px; left:-100px; opacity: 0; width: 256px; height: 128px;}
+.text_wordpress.slide		{ top:135px; left:-100px; opacity: 0; width: 254px; height: 70px;}
+.text_minimal.slide 		{ top:390px; opacity: 0; width: 50%; height: 50%;}
+
+
+.text_logo.slide		    { top:50px;  left:0px; opacity: 0; width: 95px; height: 95px;}
+
+
+
+.text_hello 		{ top:0px; opacity: 1; left:0; width: 256px; height: 128px;}
+.text_wordpress		{ top:115px; opacity: 1;  left:0;width: 254px; height: 70px;}
+.text_minimal 		{ top:380px; opacity: 1; width: 50%; height: 50%;}
+#primary { background-position: right top;}
+
+}
