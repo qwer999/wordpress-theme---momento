@@ -16,8 +16,19 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content" <?php if ( get_post_meta( get_the_ID(), 'background image', true ) ) : ?>style="background-image:url(<?php echo get_post_meta( get_the_ID(), 'background image', true ) ?>)  ;  "<?php endif; ?>  >
+<div id="menu" >
+	<h3>Menu</h3>
+	<ul>
+		<li class="active"><a href="#home" class="contentLink">Home </a></li>
+		<li><a href="#home" class="contentLink">About </a></li>
+		<li><a href="#home" class="contentLink">Portfolio </a></li>
+		<li><a href="#home" class="contentLink">Contact </a></li>
+	</ul>
+</div>
+
+	<div id="primary" data-role="page"  class="site-content pages" <?php if ( get_post_meta( get_the_ID(), 'background image', true ) ) : ?>style="background-image:url(<?php echo get_post_meta( get_the_ID(), 'background image', true ) ?>)  ;  "<?php endif; ?>  >
 	<div class="slideDiv"></div>
+	<a href="#"class="showMenu">Menu</a>
 		<div id="content" role="main">
 		<?php if ( have_posts() ) : ?>
 

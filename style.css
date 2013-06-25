@@ -149,7 +149,7 @@ div.multi { color:white !important;}
 .leftDiv { width:450px; padding-top: 200px; margin-left: -50px;  opacity: 0.9; line-height: 1.8; font-size: 12px; font-weight: d00;} 
 
 
-.menuIcon { position: absolute; top:-70px; right: 100px }
+.menuIcon { position: absolute; top:-70px; right: 100px; z-index: 10000000000000000000 }
 .menuIcon.slide { position: absolute; top:70px; right: 100px }
 
  
@@ -163,6 +163,24 @@ footer { display: none;}
 .site-content { 	 background-size:cover; background-attachment: fixed; height:auto; }
 
 .navigation {}
+
+
+
+/* menu */
+
+#menu { background-color: #5a5959;
+    height: 100% !important;
+    width: 165px;
+    margin-left:-165px;
+    border:1px solid red;
+    position: fixed;
+    float: left;
+}
+#menu.slide {  margin-left:0;}
+a.showMenu { margin-left:200px;}
+
+
+
 
 
 
@@ -249,3 +267,6 @@ footer { display: none;}
 #primary { background-position: right top;}
 
 }
+
+
+

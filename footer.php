@@ -7,6 +7,9 @@
 
 
 
+
+
+
 <script>
  
 
@@ -42,6 +45,9 @@ $(".nav-next a").click( function() {
   $(".box").removeClass( "box2", 1000, "easeOutQuad");
 });
 
+ $(".menuIcon").click(function () {
+$("#menu").toggleClass("slide", "slide2");
+});
 
 
 </script>
