@@ -16,12 +16,12 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.mobile.min.js" type="text/javascript"></script>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
-     
 </head>   
 <body <?php body_class(); ?> >
 	<div class="slideDiv"></div>

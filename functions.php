@@ -287,7 +287,7 @@ function twentytwelve_entry_meta() {
 	if ( $tag_list ) {
 		$utility_text = __( 'Posted in %1$s and tagged %2$s on %3$s<span class="by-author"> by %4$s</span>', 'twentytwelve' );
 	} elseif ( $categories_list ) {
-		$utility_text = __( '%1$s<br /> Posted in %3$s <br /><span class="by-author"> by %4$s</span>', 'twentytwelve' );
+		$utility_text = __( '<span class="siteTitle">%1$s</span><br /> Posted in %3$s <br /><span class="by-author"> by %4$s</span>', 'twentytwelve' );
 	} else {
 		$utility_text = __( 'Posted on %3$s<span class="by-author"> by %4$s</span>', 'twentytwelve' );
 	}

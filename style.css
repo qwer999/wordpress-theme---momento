@@ -106,14 +106,17 @@ a { text-decoration: none;}
 
 html { height: 100%; margin:0; padding:0; }
 body {  background-size:cover; background-attachment: fixed; height: 100%; margin:0; padding:0;} 
-article { min-height:100%; max-width:1800px; padding:0 ; margin:0 auto; color:white; min-height:800px; overflow: auto;}
+article { min-height:100%; max-width:1800px; padding:0 ; margin:0 auto; color:white; overflow: auto;}
 article header { padding-top:50px;}
 .entry-content { padding:10% 0; }
 
 .entry-title {}
 h1.entry-title a { font-size: 24px; font-weight:800; color:white; border-bottom:3px solid white; }
-.postinfo  {font-size: 11px; line-height: 1.5; padding-top:0px;  opacity: 0.6; }
+.postinfo  {font-family: 'Source Sans Pro', sans-serif; font-size: 13px; line-height: 1.5; padding-top:0px;  opacity: 0.8; }
 .postinfo a { color:white; text-decoration: none;}
+
+.siteTitle a { font-size: 20px; font-weight: bold; }
+
 article img {max-width: 100%;}
 h1, .postinfo { float: left; clear: none;}
 .postinfo { clear: both; float: none;}
@@ -150,7 +153,7 @@ div.multi { color:white !important;}
 
 
 .menuIcon { position: absolute; top:-70px; right: 100px; z-index: 10000000000000000000 }
-.menuIcon.slide { position: absolute; top:70px; right: 100px }
+.menuIcon.slide { position: absolute; top:50px; right: 100px }
 
  
 footer { display: none;}
@@ -160,7 +163,7 @@ footer { display: none;}
 .slideDiv.slide { width:0; right:0;}
 
 
-.site-content { 	 background-size:cover; background-attachment: fixed; height:auto; }
+.site-content { 	 background-size:100% auto; background-repeat:no-repeat;height:auto; }
 
 .navigation {}
 
@@ -172,14 +175,11 @@ footer { display: none;}
     height: 100% !important;
     width: 165px;
     margin-left:-165px;
-    border:1px solid red;
     position: fixed;
     float: left;
 }
 #menu.slide {  margin-left:0;}
 a.showMenu { margin-left:200px;}
-
-
 
 
 
@@ -234,7 +234,7 @@ a.showMenu { margin-left:200px;}
 .menuIcon { margin-top:-200px;}
 .menuIcon.slide2 {  margin-top:0;}
 
-.calumn2 {  height: 100px; border-top:1px solid #555; width: 100%; position: absolute; top: 50%;left:0;  margin-top: 300px; padding-top:40px;}
+.calumn2 {  height: 100px; border-top:1px solid #333; width: 100%; position: absolute; top: 50%;left:0;  margin-top: 300px; padding-top:40px; }
 
 
 .calumn2 .calumn2Box { width:840px; margin:0 auto; }
@@ -245,16 +245,16 @@ a.showMenu { margin-left:200px;}
 
 @media only all and (max-width: 480px) {
  
-.slideDiv {display: none;}
+.slideDiv {}
 
-.imgBox { width:300px;  border: 1px solid red; position: absolute; left: 0; margin-left: 100px }
+.imgBox { width:300px;   position: absolute; left: 0; margin-left: 100px; margin-top:-130px; }
 .imgBox img { position: absolute;}
 
 .calumn2 .calumn2Box { width:auto; font-size: 20px !important; }
 .calumn2 .calumn2Box .left,.calumn2 .calumn2Box .right { padding:20px 0;}
 .text_hello.slide 		{ top:20px; left:-100px; opacity: 0; width: 256px; height: 128px;}
 .text_wordpress.slide		{ top:135px; left:-100px; opacity: 0; width: 254px; height: 70px;}
-.text_minimal.slide 		{ top:390px; opacity: 0; width: 50%; height: 50%;}
+.text_minimal.slide 		{ top:220px; opacity: 0; width: 121px; height: 23px;}
 
 
 .text_logo.slide		    { top:50px;  left:0px; opacity: 0; width: 95px; height: 95px;}
@@ -263,8 +263,11 @@ a.showMenu { margin-left:200px;}
 
 .text_hello 		{ top:0px; opacity: 1; left:0; width: 256px; height: 128px;}
 .text_wordpress		{ top:115px; opacity: 1;  left:0;width: 254px; height: 70px;}
-.text_minimal 		{ top:380px; opacity: 1; width: 50%; height: 50%;}
+.text_minimal 		{ top:220px; opacity: 1; width: 121px; height: 23px;}
 #primary { background-position: right top;}
+
+.postinfo { line-height: normal;  opacity: 1; }
+.postinfo .siteTitle a { font-size: 40px !important; font-weight: bold; }
 
 }
 
