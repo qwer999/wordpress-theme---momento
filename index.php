@@ -26,9 +26,8 @@ get_header(); ?>
 	</ul>
 </div>
 
-	<div id="primary" data-role="page"  class="site-content pages" <?php if ( get_post_meta( get_the_ID(), 'background image', true ) ) : ?>style="background-image:url(<?php echo get_post_meta( get_the_ID(), 'background image', true ) ?>)  ;  "<?php endif; ?>  >
+	<div id="primary" data-role="page"  class="site-content pages" <?if ( get_post_meta( get_the_ID(), 'background image', true ) ) { ?>style="background-image:url(<?php echo get_post_meta( get_the_ID(), 'background image', true ) ?>)  ;  "<?}else{?><?if( has_post_thumbnail( get_the_ID() ) ){?><?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>style="background-image:url(<?php echo $url; ?>)  ;  " <?}?><?}?>>
 	<div class="slideDiv"></div>
-	<a href="#"class="showMenu">Menu</a>
 		<div id="content" role="main">
 		<?php if ( have_posts() ) : ?>
 
